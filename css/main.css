@@ -1,4 +1,52 @@
-body{
+body {
     background: rgb(186, 209, 203);
+    font-family: "Open Sans", sans-serif;
 }
 
+h1 {
+    font-size: 40px;
+    color: rgb(102, 62, 203);
+}
+
+p {
+    font-size: xx-large;
+    color: rgb(81, 33, 33);
+    font-family: Georgia, "Times New Roman", Times, serif;
+    text-shadow: 5px 5px 5px rgba(143, 121, 121, 0.5);
+}
+
+p.especial {
+    background-color: rgb(0, 255, 208);
+}
+
+ol {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+h2 {
+    font-size: xx-large;
+    color: rgb(188, 20, 20);
+}
+
+.menuNavegacion a {
+    text-decoration: none;
+    font-size: 30px;
+}
+
+a:hover {
+    color: rgb(188, 148, 182);
+}
+
+label {
+    font-weight: 700;
+    color: #b86e0e;
+    font-size: 25px;
+}
+
+input.envio {
+    font-size: x-large;
+    color: rgb(125, 27, 14);
+    background: #0e81a7;
+    border-radius: 8px;
+}
